@@ -1,0 +1,82 @@
+site_name: Language Learning
+theme:
+  name: material
+  font:
+    text: JetBrains Mono
+    code: Space Mono
+  logo: assets/lang.svg
+  favicon: assets/favicon.ico
+  palette:
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      primary: purple
+      accent: cyan
+      toggle:
+        icon: material/brightness-7
+        name: Switch to dark mode
+
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      primary: deep purple
+      accent: cyan
+      toggle:
+        icon: material/brightness-4
+        name: Switch to light mode
+
+      icon:
+        repo: fontawesome/brands/github
+
+  features:
+    - navigation.footer
+    - navigation.instant
+    - search.suggest
+    - search.highlighting
+
+  # favicon: img/favicon.png
+  # logo: img/moe.svg
+  # icon:
+  #   repo: fontawesome/brands/github
+
+nav:
+  - Главная: "index.md" # Главная страница
+  - "Корейский язык": # Раздел "Guides"
+      - "Корейский Алфавит": "korean/alphabet.md" # Страница "Japanese Guide"
+  - "Японский язык": # Раздел "Visual Novels"
+      - "Японский Алфавит": "japanese/alphabet.md"
+
+extra:
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/likeauser9
+    - icon: material/email
+      link: mailto:frdwoz5@gmail.com
+    - icon: material/web
+      link: https://yourwebsite.com
+
+extra_css:
+  - assets/styles.css
+
+extra_javascript:
+  - https://kit.fontawesome.com/8bdf8c69c6.js
+
+markdown_extensions:
+  - attr_list
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
+  - pymdownx.highlight:
+      anchor_linenums: true
+      line_spans: __span
+      pygments_lang_class: true
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:pymdownx.superfences.fence_code_format
+  - pymdownx.tabbed:
+      alternate_style: true
+
+  - admonition
+  - pymdownx.details
