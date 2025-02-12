@@ -1,6 +1,8 @@
 site_name: Language Learning
 theme:
   name: material
+  footer:
+    hide: true
   font:
     text: JetBrains Mono
     code: Space Mono
@@ -43,6 +45,12 @@ nav:
       - "Корейский Алфавит": "korean/alphabet.md" # Страница "Japanese Guide"
   - "Японский язык": # Раздел "Visual Novels"
       - "Японский Алфавит": "japanese/alphabet.md"
+      - "Падежи": "japanese/cases.md"
+      - "Порядок слов": "japanese/word_order.md"
+      - "Предлоги": "japanese/prepositions.md"
+      # - "Слова-связки": "japanese/linking_words.md"
+      - "Глаголы": "japanese/verbs.md"
+      - "Прилагательные": "japanese/adjectives.md"
 
 extra:
   social:
@@ -53,11 +61,11 @@ extra:
     - icon: material/web
       link: https://yourwebsite.com
 
-extra_css:
-  - assets/styles.css
+# extra_css:
+#   - assets/stylesheets/extra.css
 
-extra_javascript:
-  - https://kit.fontawesome.com/8bdf8c69c6.js
+# extra_javascript:
+#   - https://kit.fontawesome.com/8bdf8c69c6.js
 
 markdown_extensions:
   - attr_list
