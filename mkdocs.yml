@@ -4,23 +4,24 @@ theme:
   footer:
     hide: true
   font:
-    text: JetBrains Mono
+    # text: JetBrains Mono
+    text: Nunito
     code: Space Mono
   logo: assets/lang.svg
   favicon: assets/favicon.ico
   palette:
     - media: "(prefers-color-scheme: light)"
       scheme: default
-      primary: purple
-      accent: cyan
+      primary: blue
+      accent: teal
       toggle:
         icon: material/brightness-7
         name: Switch to dark mode
 
     - media: "(prefers-color-scheme: dark)"
       scheme: slate
-      primary: deep purple
-      accent: cyan
+      primary: indigo
+      accent: green
       toggle:
         icon: material/brightness-4
         name: Switch to light mode
@@ -51,6 +52,21 @@ nav:
       # - "Слова-связки": "japanese/linking_words.md"
       - "Глаголы": "japanese/verbs.md"
       - "Прилагательные": "japanese/adjectives.md"
+  - "Немецкий язык":
+      - "А1":
+          - "Алфавит": "german/alphabet.md"
+          - "Базовая грамматика": "german/basic_grammar.md"
+          - "Местоимения": "german/pronouns.md"
+          - "Артикли": "german/articles.md"
+          - "Глаголы и спряжение в настоящем времени": "german/verbs.md"
+          - "Простые предложения и вопросы": "german/simple_sentences.md"
+          - "Числа, цвета, дни недели и базовая лексика": "german/vocabulary.md"
+          - "Предлоги места и времени": "german/prepositions.md"
+          - "Порядок слов в предложении (расширенный)": "german/vocabulary.md"
+          - "Модальные глаголы": "german/vocabulary.md"
+          - "Прошедшее время (Perfekt)": "german/vocabulary.md"
+          - "Прилагательные и их склонение": "german/vocabulary.md"
+          - "Прилагательные и их склонение": "german/vocabulary.md"
 
 extra:
   social:
