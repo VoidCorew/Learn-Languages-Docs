@@ -13,7 +13,7 @@ theme:
     - media: "(prefers-color-scheme: light)"
       scheme: default
       primary: blue
-      accent: teal
+      accent: light blue
       toggle:
         icon: material/brightness-7
         name: Switch to dark mode
@@ -21,7 +21,7 @@ theme:
     - media: "(prefers-color-scheme: dark)"
       scheme: slate
       primary: indigo
-      accent: green
+      accent: deep purple
       toggle:
         icon: material/brightness-4
         name: Switch to light mode
@@ -54,20 +54,32 @@ nav:
       - "Прилагательные": "japanese/adjectives.md"
   - "Немецкий язык":
       - "А1":
-          - "Алфавит": "german/alphabet.md"
-          - "Базовая грамматика": "german/basic_grammar.md"
-          - "Местоимения": "german/pronouns.md"
-          - "Артикли": "german/articles.md"
-          - "Глаголы и спряжение в настоящем времени": "german/verbs.md"
-          - "Простые предложения и вопросы": "german/simple_sentences.md"
-          - "Числа, цвета, дни недели и базовая лексика": "german/vocabulary.md"
-          - "Предлоги места и времени": "german/prepositions.md"
-          - "Порядок слов в предложении (расширенный)": "german/word_order(extended).md"
-          - "Модальные глаголы": "german/modal_verbs.md"
-          - "Прошедшее время (Perfekt)": "german/past_perfect.md"
-          - "Прилагательные и их склонение": "german/adjectives.md"
+          - "Алфавит": "german/a1/alphabet.md"
+          - "Базовая грамматика": "german/a1/basic_grammar.md"
+          - "Местоимения": "german/a1/pronouns.md"
+          - "Артикли": "german/a1/articles.md"
+          - "Глаголы и спряжение в настоящем времени": "german/a1/verbs.md"
+          - "Простые предложения и вопросы": "german/a1/simple_sentences.md"
+          - "Числа, цвета, дни недели и базовая лексика": "german/a1/vocabulary.md"
+          - "Предлоги места и времени": "german/a1/prepositions.md"
+          - "Порядок слов в предложении (расширенный)": "german/a1/word_order(extended).md"
+          - "Модальные глаголы": "german/a1/modal_verbs.md"
+          - "Прошедшее время (Perfekt)": "german/a1/past_perfect.md"
+          - "Прилагательные и их склонение": "german/a1/adjectives.md"
       - "А2":
-          - "Местоимения в косвенных падежах (Dativ, Akkusativ)": "german/pronouns_in_oblique_cases.md"
+          - "Местоимения в косвенных падежах (Dativ, Akkusativ)": "german/a2/pronouns_in_oblique_cases.md"
+          - "Предлоги с управлением падежей (Dativ, Akkusativ)": "german/a2/prepositions_with_case_control.md"
+          - "Сложные прошедшие времена (Präteritum, Perfekt в деталях)": "german/a2/complicated_past_tenses.md"
+          - "Притяжательные местоимения (Possessivpronomen)": "german/a2/possessive_pronouns.md"
+          - "Порядок слов в придаточных предложениях": "german/a2/word_order_in_subordinate_clauses.md"
+          - "Склонение прилагательных с артиклями": "german/a2/declension_of_adjectives_with_articles.md"
+          - "Местоимения в Dativ и Akkusativ": "german/a2/pronouns_in_dativ_and_akku.md"
+          - "Сравнительная и превосходная степень прилагательных (größer, am größten)": "german/a2/comparative_and_superlative_degrees.md"
+          - "Повелительное наклонение (Mach das! Helft mir!)": "german/a2/imperative.md"
+          - "Разделительные глаголы (Trennbare Verben) и неразделимые (aufstehen, besuchen и т.п.)": "german/a2/separable_inseparable_verbs.md"
+          - "Употребление двойных союзов (z.B. nicht nur, sondern auch...)": "german/a2/double_conjuctions.md"
+          - "Perfekt с модальными глаголами (Ich habe arbeiten müssen)": "german/a2/imperative.md"
+          
 
 extra:
   social:
