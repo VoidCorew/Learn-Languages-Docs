@@ -62,11 +62,12 @@ nav:
           - "Простые предложения и вопросы": "german/simple_sentences.md"
           - "Числа, цвета, дни недели и базовая лексика": "german/vocabulary.md"
           - "Предлоги места и времени": "german/prepositions.md"
-          - "Порядок слов в предложении (расширенный)": "german/vocabulary.md"
-          - "Модальные глаголы": "german/vocabulary.md"
-          - "Прошедшее время (Perfekt)": "german/vocabulary.md"
-          - "Прилагательные и их склонение": "german/vocabulary.md"
-          - "Прилагательные и их склонение": "german/vocabulary.md"
+          - "Порядок слов в предложении (расширенный)": "german/word_order(extended).md"
+          - "Модальные глаголы": "german/modal_verbs.md"
+          - "Прошедшее время (Perfekt)": "german/past_perfect.md"
+          - "Прилагательные и их склонение": "german/adjectives.md"
+      - "А2":
+          - "Местоимения в косвенных падежах (Dativ, Akkusativ)": "german/pronouns_in_oblique_cases.md"
 
 extra:
   social:
