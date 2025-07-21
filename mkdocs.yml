@@ -21,7 +21,7 @@ theme:
     - media: "(prefers-color-scheme: dark)"
       scheme: slate
       primary: indigo
-      accent: deep purple
+      accent: indigo accent
       toggle:
         icon: material/brightness-4
         name: Switch to light mode
@@ -55,6 +55,7 @@ nav:
   - "Немецкий язык":
       - "А1":
           - "Алфавит": "german/a1/alphabet.md"
+          - "Чтение и произношенние": "german/a1/reading_pronounciation.md"
           - "Базовая грамматика": "german/a1/basic_grammar.md"
           - "Местоимения": "german/a1/pronouns.md"
           - "Артикли": "german/a1/articles.md"
@@ -78,7 +79,7 @@ nav:
           - "Повелительное наклонение (Mach das! Helft mir!)": "german/a2/imperative.md"
           - "Разделительные глаголы (Trennbare Verben) и неразделимые (aufstehen, besuchen и т.п.)": "german/a2/separable_inseparable_verbs.md"
           - "Употребление двойных союзов (z.B. nicht nur, sondern auch...)": "german/a2/double_conjuctions.md"
-          - "Perfekt с модальными глаголами (Ich habe arbeiten müssen)": "german/a2/imperative.md"
+          - "Perfekt с модальными глаголами (Ich habe arbeiten müssen)": "german/a2/past_perfect_modal_verbs.md"
           
 
 extra:
